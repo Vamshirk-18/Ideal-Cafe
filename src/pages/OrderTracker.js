@@ -10,7 +10,7 @@ const OrderTracker = () => {
     }, 3000);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [stages.length]); // Added stages.length to dependencies
 
   return (
     <div className="bg-success text-white p-3 mt-4 rounded">

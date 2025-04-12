@@ -11,8 +11,7 @@ import bee from '../assets1/bee.jpg';
 import brownie from '../assets1/brownie.jpg';
 import fantasy from '../assets1/fantasy.jpg';
 import oreo from '../assets1/oreo.jpg';
-import SignIn from '../pages/SignIn';
-import Offers from '../pages/Offers';
+
 
 const sampleMenuItems = [
     {

@@ -7,11 +7,7 @@ import hero1 from '../assets1/hero1.png';
 import hero2 from '../assets1/hero2.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Menu from '../pages/Menu';
-import IceCreamOfTheDay from '../pages/IceCreamOfTheDay';
-import FlavorRecommendation from '../pages/FlavorRecommendation';
-import SignIn from '../pages/SignIn';
-import Offers from '../pages/Offers';
+
 
 const Home = () => {
   return (
