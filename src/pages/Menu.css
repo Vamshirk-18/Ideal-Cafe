@@ -1,0 +1,74 @@
+.menu-page {
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  .menu-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+  
+  .menu-controls select {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .menu-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .menu-item h5 {
+    margin: 1rem 1rem 0.5rem;
+  }
+  
+  .menu-item p {
+    margin: 0 1rem 1rem;
+    color: #555;
+    font-size: 0.95rem;
+  }
+  
+  .menu-item .price {
+    font-weight: bold;
+    margin: 0 1rem 1rem;
+  }
+  
+  .menu-item button {
+    margin: 0 1rem 1rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: #ff4d4d;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-item button:hover {
+    background-color: #e63946;
+  }
+  

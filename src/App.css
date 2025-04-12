@@ -36,3 +36,126 @@
     transform: rotate(360deg);
   }
 }
+/* Navbar.css */
+
+/* Navbar background and padding */
+.navbar {
+  background-color: #fff;
+  padding: 12px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Logo styling */
+.navbar-brand img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar-brand span {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Navbar links */
+.nav-link {
+  font-weight: 500;
+  color: #444 !important;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #d9534f !important;
+}
+
+/* Disabled link styling */
+.nav-link.disabled {
+  color: #bbb !important;
+}
+
+/* Search form */
+form.d-flex input.form-control {
+  border-radius: 20px;
+  padding-left: 15px;
+}
+
+form.d-flex button {
+  border-radius: 20px;
+  margin-left: 8px;
+}
+
+/* Responsive logo spacing */
+@media (max-width: 576px) {
+  .navbar-brand span {
+    font-size: 1.1rem;
+  }
+}
+/* Home.css */
+
+/* General Styling */
+body {
+  background-color: #fffdf7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Carousel */
+.carousel img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Section Headings */
+h2 {
+  color: #d63384; /* Bootstrap pink */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Cards - Popular Dishes & Offers */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Testimonials */
+.card-body {
+  text-align: center;
+}
+
+/* Offers Text */
+.card-title {
+  color: #198754; /* Bootstrap green */
+  font-weight: 600;
+}
+
+.card-text {
+  color: #343a40;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .carousel img {
+    height: 250px;
+  }
+}

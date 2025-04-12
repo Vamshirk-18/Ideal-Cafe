@@ -1,0 +1,84 @@
+.carousel img {
+    height: 450px;
+    object-fit: cover;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+
+  .carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+ 
+  h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  
+  .card {
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card-text {
+    font-style: italic;
+  }
+  
+  .card-title {
+    font-weight: 600;
+    color: #d9534f;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .carousel-caption {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .card img {
+      height: 160px;
+    }
+  }
+ 
+
+.dish-image {
+    height: 250px;        
+    object-fit: cover;    
+    border-radius: 10px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  

@@ -1,0 +1,27 @@
+/* src/styles/main.css */
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Dark mode support */
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Utility spacing for sections */
+  .section {
+    padding: 2rem 1rem;
+  }
+  
+  /* Navbar Customization */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
