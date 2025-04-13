@@ -53,7 +53,7 @@ function Navbar() {
               <Link className="nav-link" to="/contact">Contact</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/signin">SignIn</Link>
+              <Link className="nav-link" to="/signin">Sign In</Link>
             </li>
             
             
