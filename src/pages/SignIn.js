@@ -29,7 +29,7 @@ const SignIn = () => {
     localStorage.setItem('user', JSON.stringify(userData));
 
     
-    navigate('/home');
+    navigate('/');
   };
 
   return (
