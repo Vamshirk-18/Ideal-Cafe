@@ -10,7 +10,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         
-        <Link className="navbar-brand d-flex align-items-center" href="#">
+        <Link className="navbar-brand d-flex align-items-center" to="/">
           <img
             src={logo}
             alt="Ideal Café Logo"
@@ -53,9 +53,17 @@ function Navbar() {
               <Link className="nav-link" to="/contact">Contact</Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/profile">Profile</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/admin">Admin</Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/signin">SignIn</Link>
             </li>
-            
+            <li className="nav-item">
+              <Link className="nav-link" to="/signup">Sign Up</Link>
+            </li>
             
           </ul>
 
